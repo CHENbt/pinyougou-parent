@@ -1,10 +1,9 @@
 package com.pinyougou.sellergoods.service;
+import com.pinyougou.pojo.TbBrand;
+import entity.PageResult;
+
 import java.util.List;
 import java.util.Map;
-
-import com.pinyougou.pojo.TbBrand;
-
-import entity.PageResult;
 /**
  * 服务层接口
  * @author Administrator

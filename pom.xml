@@ -19,6 +19,9 @@
       <module>pinyougou-portal-web</module>
     <module>pinyougou-sellergoods-interface</module>
     <module>pinyougou-sellergoods-service</module>
+      <module>pinyougou-search-interface</module>
+      <module>pinyougou-search-service</module>
+    <module>pinyougou-test</module>
   </modules>
 
   <name>Maven</name>

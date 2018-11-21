@@ -18,6 +18,7 @@
     <file type="web" url="file://$PROJECT_DIR$/pinyougou-search-web" />
     <file type="web" url="file://$PROJECT_DIR$/pinyougou-sellergoods-service" />
     <file type="web" url="file://$PROJECT_DIR$/pinyougou-shop-web" />
+    <file type="web" url="file://$PROJECT_DIR$/pinyougou-test" />
   </component>
   <component name="JavaScriptSettings">
     <option name="languageLevel" value="ES6" />
@@ -27,14 +28,14 @@
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/pinyougou-solr-util/pom.xml" />
+        <option value="$PROJECT_DIR$/pinyougou-search-service/pom.xml" />
+        <option value="$PROJECT_DIR$/pinyougou-search-interface/pom.xml" />
+        <option value="$PROJECT_DIR$/pinyougou-sellergoods-interface/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
       <set>
-        <option value="$PROJECT_DIR$/pinyougou-search-interface/pom.xml" />
-        <option value="$PROJECT_DIR$/pinyougou-search-service/pom.xml" />
         <option value="$PROJECT_DIR$/pinyougou-search-web/pom.xml" />
-        <option value="$PROJECT_DIR$/pinyougou-sellergoods-interface/pom.xml" />
       </set>
     </option>
   </component>
