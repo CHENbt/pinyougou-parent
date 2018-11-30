@@ -22,7 +22,7 @@ public class BrandController {
     //这里的返回值就是写成List就好，通过阿里巴巴的转换器就自动的转换成JSON
     @RequestMapping("/findAll")
     public List<TbBrand> findAll(){
-        return brandService.finadAll();
+        return brandService.findAll();
     }
 
     @RequestMapping("/findPage")

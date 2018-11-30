@@ -31,11 +31,12 @@
         <option value="$PROJECT_DIR$/pinyougou-search-service/pom.xml" />
         <option value="$PROJECT_DIR$/pinyougou-search-interface/pom.xml" />
         <option value="$PROJECT_DIR$/pinyougou-sellergoods-interface/pom.xml" />
+        <option value="$PROJECT_DIR$/pinyougou-search-web/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
       <set>
-        <option value="$PROJECT_DIR$/pinyougou-search-web/pom.xml" />
+        <option value="$PROJECT_DIR$/pinyougou-test/pom.xml" />
       </set>
     </option>
   </component>

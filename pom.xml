@@ -21,7 +21,7 @@
     <module>pinyougou-sellergoods-service</module>
       <module>pinyougou-search-interface</module>
       <module>pinyougou-search-service</module>
-    <module>pinyougou-test</module>
+    <module>pinyougou-search-web</module>
   </modules>
 
   <name>Maven</name>
