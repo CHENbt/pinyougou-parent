@@ -1,6 +1,7 @@
 package com.pinyougou.manager.controller;
 
 import com.alibaba.dubbo.config.annotation.Reference;
+import com.pinyougou.page.service.ItemPageService;
 import com.pinyougou.pojo.TbGoods;
 import com.pinyougou.pojo.TbItem;
 import com.pinyougou.pojogroup.Goods;
@@ -114,10 +115,16 @@ public class GoodsController {
 			goodsService.updateStatus(ids,status);
 
 			if("1".equals(status)){  //审核通过
+				//导入到索引库
 				//得到需要导入的SKU列表
 				List<TbItem> itemList = goodsService.findItemListByGoodsIdListAndStatus(ids, status);
 				//导入到solr
 				itemSearchService.importList(itemList);
+
+				//生成商品详细页
+				for(Long goodsId : ids){
+					itemPageService.genItemHtml(goodsId);
+				}
 			}
 
 
@@ -126,6 +133,14 @@ public class GoodsController {
 			e.printStackTrace();
 			return new Result(false,"失败");
 		}
+	}
+
+	@Reference(timeout = 40000)
+	private ItemPageService itemPageService;
+
+	@RequestMapping("/genHtml")
+	public void genHtml(Long goodsId){
+		itemPageService.genItemHtml(goodsId);
 	}
 	
 }
