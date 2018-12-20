@@ -23,10 +23,15 @@
         <module name="pinyougou-sellergoods-service" />
         <module name="pinyougou-shop-web" />
         <module name="pinyougou-solr-util" />
+        <module name="pinyougou-user-interface" />
+        <module name="pinyougou-user-service" />
+        <module name="pinyougou-user-web" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="pinyougou-test" target="1.7" />
+      <module name="pinyougou-user-interface" target="1.7" />
+      <module name="pinyougou-user-service" target="1.7" />
     </bytecodeTargetLevel>
   </component>
 </project>
