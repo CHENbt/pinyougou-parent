@@ -1,0 +1,2 @@
+0:0:0:0:0:0:0:1 - - [21/Dec/2018:21:51:24 +0800] "GET /login/cas?ticket=ST-1-eQh6AoeCdcJwCkNNdEIy-cas01.example.org HTTP/1.1" 404 969 http-bio-9006-exec-1 47
+0:0:0:0:0:0:0:1 - - [21/Dec/2018:21:51:24 +0800] "GET /favicon.ico HTTP/1.1" 404 973 http-bio-9006-exec-2 2

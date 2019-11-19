@@ -1,0 +1,8 @@
+0:0:0:0:0:0:0:1 - - [29/Nov/2018:18:25:42 +0800] "GET / HTTP/1.1" 200 59495 http-bio-9103-exec-1 92
+0:0:0:0:0:0:0:1 - - [29/Nov/2018:18:25:42 +0800] "GET /js/base.js HTTP/1.1" 304 - http-bio-9103-exec-2 5
+0:0:0:0:0:0:0:1 - - [29/Nov/2018:18:25:42 +0800] "GET /%7B%7Bitem.pic%7D%7D HTTP/1.1" 404 991 http-bio-9103-exec-6 4
+0:0:0:0:0:0:0:1 - - [29/Nov/2018:18:25:42 +0800] "GET /js/service/contentService.js HTTP/1.1" 304 - http-bio-9103-exec-4 62
+0:0:0:0:0:0:0:1 - - [29/Nov/2018:18:25:42 +0800] "GET /js/controller/contentController.js HTTP/1.1" 200 499 http-bio-9103-exec-5 70
+0:0:0:0:0:0:0:1 - - [29/Nov/2018:18:25:42 +0800] "GET /plugins/angularjs/angular.min.js HTTP/1.1" 304 - http-bio-9103-exec-3 93
+0:0:0:0:0:0:0:1 - - [29/Nov/2018:18:25:43 +0800] "GET /assets/img/favicon.ico HTTP/1.1" 404 995 http-bio-9103-exec-10 1
+0:0:0:0:0:0:0:1 - - [29/Nov/2018:18:25:45 +0800] "GET /content/findByCategoryId.do?categoryId=1 HTTP/1.1" 500 15930 http-bio-9103-exec-9 1364

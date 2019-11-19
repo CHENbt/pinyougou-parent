@@ -101,7 +101,7 @@ public class ContentController {
 	
 		/**
 	 * 查询+分页
-	 * @param brand
+	 * @param content
 	 * @param page
 	 * @param rows
 	 * @return
