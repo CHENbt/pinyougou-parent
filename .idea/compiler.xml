@@ -25,6 +25,8 @@
         <module name="pinyougou-search-web" />
         <module name="pinyougou-page-service" />
         <module name="pinyougou-page-web" />
+        <module name="pinyougou-pay-interface" />
+        <module name="pinyougou-pay-service" />
         <module name="pinyougou-pojo" />
         <module name="pinyougou-cart-service" />
         <module name="pinyougou-cart-interface" />
